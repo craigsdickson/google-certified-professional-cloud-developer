@@ -20,6 +20,7 @@ Considerations include:
    * Reading
       * [Geography and regions](https://cloud.google.com/docs/geography-and-regions#:~:text=Google%20Cloud%20services%20are%20available,%2C%20availability%2C%20and%20durability%20requirements.)
       * [Cloud locations](https://cloud.google.com/about/locations)
+      * [Regions and zones](https://cloud.google.com/compute/docs/regions-zones)
       * [Compute Engine - Global, regional, and zonal resources](https://cloud.google.com/compute/docs/regions-zones/global-regional-zonal-resources)
 * Defining a key structure for high-write applications using Cloud Storage, Cloud Bigtable, Cloud Spanner, or Cloud SQL
    * Reading
@@ -52,6 +53,7 @@ Considerations include:
       * [DevOps tech: Architecture](https://cloud.google.com/solutions/devops/devops-tech-architecture)
       * [Patterns for scalable and resilient apps](https://cloud.google.com/solutions/scalable-and-resilient-apps)
       * [Choosing the right architecture for global data distribution](https://cloud.google.com/solutions/architecture/global-data-distribution)
+      * [Apache Kafka for GCP users: connectors for Pub/Sub, Dataflow and BigQuery](https://cloud.google.com/blog/products/data-analytics/apache-kafka-for-gcp-users-connectors-for-pubsub-dataflow-and-bigquery)
       * [Emulating Google’s Cloud Pub/Sub on Apache Kafka](https://medium.com/appscale/emulating-googles-cloud-pub-sub-on-apache-kafka-74084222c9db)
 * Graceful shutdown on platform termination
    * Reading
@@ -73,14 +75,43 @@ Considerations include:
 Considerations include:
 
 * Implementing requirements that are relevant for applicable regulations (e.g., data wipeout)
+   * Reading
+      * [Google Cloud & the General Data Protection Regulation (GDPR)](https://cloud.google.com/security/gdpr)
+      * [Compliance resource center](https://cloud.google.com/security/compliance)
+      * [Data deletion on Google Cloud Platform](https://cloud.google.com/security/deletion)
+      * [Deleting your data in Google Cloud Platform](https://cloud.google.com/blog/products/storage-data-transfer/deleting-your-data-in-google-cloud-platform)
 * Security mechanisms that protect services and resources
+   * Reading
+      * [Google Cloud Security Whitepapers](https://services.google.com/fh/files/misc/security_whitepapers_march2018.pdf)
+      * [Google Cloud’s Approach to Security](https://services.google.com/fh/files/misc/csuite_security_ebook.pdf)
+      * [Cloud Security FAQ](https://support.google.com/cloud/answer/6262505?hl=en)
 * Security mechanisms that secure/scan application binaries and manifests
+   * Reading
+      * [Implementing Binary Authorization using Cloud Build and GKE](https://cloud.google.com/solutions/binary-auth-with-cloud-build-and-gke)
 * Storing and rotating application secrets and keys (e.g., Cloud KMS, HashiCorp Vault)
+   * Reading
+      * [Secret Manager conceptual overview](https://cloud.google.com/secret-manager/docs/overview)
 * Authenticating to Google services (e.g., application default credentials, JSON Web Token (JWT), OAuth 2.0)
+   * Reading
+      * [Authentication overview](https://cloud.google.com/docs/authentication)
+      * [Authenticating as a service account](https://cloud.google.com/docs/authentication/production)
+      * [Authentication between services](https://cloud.google.com/endpoints/docs/openapi/service-account-authentication)
+   * Tutorial/Lab
+      * [Understanding OAuth2 and deploying a basic authorization service to Cloud Functions](https://cloud.google.com/community/tutorials/understanding-oauth2-and-deploy-a-basic-auth-srv-to-cloud-functions)
 * IAM roles for users/groups/service accounts
+   * Reading
+      * [Granting, changing, and revoking access to resources](https://cloud.google.com/iam/docs/granting-changing-revoking-access)
 * Securing service-to-service communications (e.g., service mesh, Kubernetes Network Policies, and Kubernetes namespaces)
+   * Reading
+      * [Kubernetes best practices: Organizing with Namespaces](https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-best-practices-organizing-with-namespaces)
+      * [CloudRun - Authenticating service-to-service](https://cloud.google.com/run/docs/authenticating/service-to-service)
 * Running services with least privileged access (e.g., Workload Identity)
+   * Reading
+      * [GKE - Using Workload Identity](https://cloud.google.com/kubernetes-engine/docs/how-to/workload-identity)
 * Certificate-based authentication (e.g., SSL, mTLS)
+   * Reading
+      * [SSL certificates overview](https://cloud.google.com/load-balancing/docs/ssl-certificates)
+      * [Using mutual TLS to obtain short-lived credentials](https://cloud.google.com/solutions/using-mutual-tls-to-obtain-short-lived-credentials)
 * Google-recommended practices and documentation
 
 ## 1.3 Managing application data.
@@ -88,6 +119,13 @@ Considerations include:
 Considerations include:
 
 * Defining database schemas for Google-managed databases (e.g., Firestore, Cloud Spanner, Cloud Bigtable, Cloud SQL)
+   * Reading
+      * [Google Cloud databases](https://cloud.google.com/products/databases)
+      * [Cloud Firestore Data model](https://firebase.google.com/docs/firestore/data-model)
+      * [Spanner - Schema and data model](https://cloud.google.com/spanner/docs/schema-and-data-model)
+      * [Bigtable - Designing your schema](https://cloud.google.com/bigtable/docs/schema-design)
+      * [CloudSQL - MySQL - Best practices](https://cloud.google.com/sql/docs/mysql/best-practices)
+      * [CloudSQL - PostgreSQL - Best practices](https://cloud.google.com/sql/docs/postgres/best-practices)
 * Choosing data storage options based on use case considerations, such as:
    * Time-limited access to objects
    * Data retention requirements
@@ -95,6 +133,15 @@ Considerations include:
    * Strong vs. eventual consistency
    * Data volume
    * Frequency of data access in Cloud Storage
+   * Reading
+      * [Cloud Storage - Signed URLs](https://cloud.google.com/storage/docs/access-control/signed-urls)
+         * Signed URLs have limited time validity
+      * [IAM - Resource attributes for IAM Conditions](https://cloud.google.com/iam/docs/conditions-resource-attributes)
+         * Can use IAM Conditions to limit times when objects can be accessed (e.g. only during business hours)
+      * [Cloud Storage - Retention policies and retention policy locks](https://cloud.google.com/storage/docs/bucket-lock)
+      * [Google Cloud online storage products](https://cloud.google.com/products/storage)
+         * Overview of storage products
+      * [Cloud Storage - Storage Classes](https://cloud.google.com/storage/docs/storage-classes)
 * Google-recommended practices and documentation
 
 ## 1.4 Application modernization.
@@ -102,6 +149,19 @@ Considerations include:
 Considerations include:
 
 * Using managed services
+   * Reading
+      * ?
 * Refactoring a monolith to microservices
+   * Reading
+      * [Migrating a monolithic application to microservices on Google Kubernetes Engine](https://cloud.google.com/solutions/migrating-a-monolithic-app-to-microservices-gke)
 * Designing stateless, horizontally scalable services
+   * Reading
+      * [Solutions - Patterns for scalable and resilient apps](https://cloud.google.com/solutions/scalable-and-resilient-apps)
 * Google-recommended practices and documentation
+   * Reading
+      * [Solutions - Application modernization](https://cloud.google.com/solutions/application-modernization)
+      * [Solutions - Modernize existing applications with Anthos](https://cloud.google.com/solutions/modernize-apps-with-anthos)
+      * [Modernizing Your .NET Application for Google Cloud Platform](https://cloud.google.com/files/maximizing-cloud-computing-through-application-modernization.pdf)
+      * [CIO Guide to Application Modernization](https://inthecloud.withgoogle.com/cio-guide-app-mod/cio_guide_app_modernization.pdf)
+      * [Application modernization and the decoupling of infrastructure services and teams](https://services.google.com/fh/files/blogs/anthos_white_paper.pdf)
+
