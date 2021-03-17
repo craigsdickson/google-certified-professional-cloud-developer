@@ -2,6 +2,10 @@
 
 Official source: https://cloud.google.com/certification/cloud-developer
 
+## Cloud Developer Learning Path
+
+https://cloud.google.com/training/application-development/#cloud-developer-learning-path
+
 ## Exam Guide w/ Resources
 
 Official source: https://cloud.google.com/certification/guides/cloud-developer
