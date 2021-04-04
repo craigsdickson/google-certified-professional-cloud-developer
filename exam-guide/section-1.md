@@ -6,9 +6,9 @@ Considerations include:
 
 * Microservices
    * Reading
-      * [Microservices Architecture on Google App Engine](https://cloud.google.com/appengine/docs/standard/java/microservices-on-app-engine)
-      * [Migrating a monolithic application to microservices on Google Kubernetes Engine](https://cloud.google.com/solutions/migrating-a-monolithic-app-to-microservices-gke)
-      * [Scalable commerce workloads using microservices](https://cloud.google.com/solutions/architecture/scaling-commerce-workloads-architecture)
+      * [Microservices Architecture on Google App Engine (Java)](https://cloud.google.com/appengine/docs/standard/java/microservices-on-app-engine) - other language examples available from same page
+      * [Solution - Migrating a monolithic application to microservices on Google Kubernetes Engine](https://cloud.google.com/solutions/migrating-a-monolithic-app-to-microservices-gke)
+      * [Solution - Architecture: Scalable commerce workloads using microservices](https://cloud.google.com/solutions/architecture/scaling-commerce-workloads-architecture)
       * [Operations Suite - Microservices](https://cloud.google.com/stackdriver/docs/solutions/slo-monitoring/microservices)
       * [Serve dynamic content and host microservices using Firebase Hosting](https://firebase.google.com/docs/hosting/serverless-overview)
    * Code Examples
@@ -50,7 +50,7 @@ Considerations include:
       * Does the exam cover API Gateway and/or Cloud Endpoints?
 * Loosely coupled asynchronous applications (e.g., Apache Kafka, Pub/Sub)
    * Reading
-      * [DevOps tech: Architecture](https://cloud.google.com/solutions/devops/devops-tech-architecture)
+      * [Solutions - DevOps tech: Architecture](https://cloud.google.com/solutions/devops/devops-tech-architecture)
       * [Patterns for scalable and resilient apps](https://cloud.google.com/solutions/scalable-and-resilient-apps)
       * [Choosing the right architecture for global data distribution](https://cloud.google.com/solutions/architecture/global-data-distribution)
       * [Apache Kafka for GCP users: connectors for Pub/Sub, Dataflow and BigQuery](https://cloud.google.com/blog/products/data-analytics/apache-kafka-for-gcp-users-connectors-for-pubsub-dataflow-and-bigquery)
@@ -91,27 +91,31 @@ Considerations include:
 * Storing and rotating application secrets and keys (e.g., Cloud KMS, HashiCorp Vault)
    * Reading
       * [Secret Manager conceptual overview](https://cloud.google.com/secret-manager/docs/overview)
+      * [Cloud KMS - Overview](https://cloud.google.com/kms/docs/quickstart)
 * Authenticating to Google services (e.g., application default credentials, JSON Web Token (JWT), OAuth 2.0)
    * Reading
       * [Authentication overview](https://cloud.google.com/docs/authentication)
       * [Authenticating as a service account](https://cloud.google.com/docs/authentication/production)
       * [Authentication between services](https://cloud.google.com/endpoints/docs/openapi/service-account-authentication)
-   * Tutorial/Lab
+   * How-to / Tutorial
       * [Understanding OAuth2 and deploying a basic authorization service to Cloud Functions](https://cloud.google.com/community/tutorials/understanding-oauth2-and-deploy-a-basic-auth-srv-to-cloud-functions)
 * IAM roles for users/groups/service accounts
    * Reading
       * [Granting, changing, and revoking access to resources](https://cloud.google.com/iam/docs/granting-changing-revoking-access)
 * Securing service-to-service communications (e.g., service mesh, Kubernetes Network Policies, and Kubernetes namespaces)
    * Reading
+      * [Anthos Service Mesh - security overview](https://cloud.google.com/service-mesh/docs/security/security-overview)
       * [Kubernetes best practices: Organizing with Namespaces](https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-best-practices-organizing-with-namespaces)
       * [CloudRun - Authenticating service-to-service](https://cloud.google.com/run/docs/authenticating/service-to-service)
+   * How-to / Tutorial
+      * [GKE - Configuring network policies for applications](https://cloud.google.com/kubernetes-engine/docs/tutorials/network-policy)
 * Running services with least privileged access (e.g., Workload Identity)
-   * Reading
+   * How-to / Tutorial
       * [GKE - Using Workload Identity](https://cloud.google.com/kubernetes-engine/docs/how-to/workload-identity)
 * Certificate-based authentication (e.g., SSL, mTLS)
    * Reading
       * [SSL certificates overview](https://cloud.google.com/load-balancing/docs/ssl-certificates)
-      * [Using mutual TLS to obtain short-lived credentials](https://cloud.google.com/solutions/using-mutual-tls-to-obtain-short-lived-credentials)
+      * [Solution - Using mutual TLS to obtain short-lived credentials](https://cloud.google.com/solutions/using-mutual-tls-to-obtain-short-lived-credentials)
 * Google-recommended practices and documentation
 
 ## 1.3 Managing application data.
@@ -149,8 +153,6 @@ Considerations include:
 Considerations include:
 
 * Using managed services
-   * Reading
-      * ?
 * Refactoring a monolith to microservices
    * Reading
       * [Migrating a monolithic application to microservices on Google Kubernetes Engine](https://cloud.google.com/solutions/migrating-a-monolithic-app-to-microservices-gke)
