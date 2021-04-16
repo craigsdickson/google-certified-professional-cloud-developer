@@ -69,7 +69,7 @@ Considerations include:
 * Source control management
     * Reading
         * [Cloud Source Repositories](https://cloud.google.com/source-repositories)
-        * [DevOps tech: Version control](https://cloud.google.com/source-repositories)
+        * [DevOps tech: Version control](https://cloud.google.com/solutions/devops/devops-tech-version-control)
 * Creating secure container images from code
     * Reading
         * [Best practices for building containers](https://cloud.google.com/solutions/best-practices-for-building-containers)

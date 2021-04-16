@@ -47,3 +47,7 @@ Integrating Google Cloud services
 Managing application performance monitoring
 
 [Resources](./exam-guide/section-5.md)
+
+## Exam Exit Notes
+
+[Hot tips](./exit-notes.md) from those that have actually taken the exam - any themes or clusters of questions around certain topics, any *must know* topics etc.

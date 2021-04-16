@@ -16,8 +16,7 @@ Considerations include:
     * Reading
         * [Solutions - Automating Canary Analysis on Google Kubernetes Engine with Spinnaker](https://cloud.google.com/solutions/automated-canary-analysis-kubernetes-engine-spinnaker)
     * Video
-        * [Canary Deployments With Istio and Kubernetes Using Spinnaker (Cloud Next '19)
-](https://www.youtube.com/watch?v=CmZWau04ZS4)
+        * [Canary Deployments With Istio and Kubernetes Using Spinnaker (Cloud Next '19)](https://www.youtube.com/watch?v=CmZWau04ZS4)
 * Reading
     * [Solutions - Implementing deployment and testing strategies on GKE](https://cloud.google.com/solutions/implementing-deployment-and-testing-strategies-on-gke)
 
