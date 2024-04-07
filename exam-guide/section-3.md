@@ -1,11 +1,14 @@
-# Section 3: Deploying applications
+# Section 3: Deploying applications (~18% of the exam)
 
-## 3.1 Recommend appropriate deployment strategies using the appropriate tools (e.g., Cloud Build, Spinnaker, Tekton, Anthos Configuration Manager) for the target compute environment (e.g., Compute Engine, Google Kubernetes Engine).
+## 3.1 Adopting appropriate feature rollout strategies.
 
 Considerations include:
 
-* Blue/green deployments
-* Traffic-splitting deployments
+<!-- * Blue/green deployments -->
+* A/B testing
+* Feature flags
+* Backward compatibility
+<!-- * Traffic-splitting deployments
     * Reading
         * [AppEngine - Spliting Traffic](https://cloud.google.com/appengine/docs/standard/python/splitting-traffic)
 * Rolling deployments
@@ -16,11 +19,11 @@ Considerations include:
     * Reading
         * [Solutions - Automating Canary Analysis on Google Kubernetes Engine with Spinnaker](https://cloud.google.com/solutions/automated-canary-analysis-kubernetes-engine-spinnaker)
     * Video
-        * [Canary Deployments With Istio and Kubernetes Using Spinnaker (Cloud Next '19)](https://www.youtube.com/watch?v=CmZWau04ZS4)
+        * [Canary Deployments With Istio and Kubernetes Using Spinnaker (Cloud Next '19)](https://www.youtube.com/watch?v=CmZWau04ZS4) -->
 * Reading
     * [Solutions - Implementing deployment and testing strategies on GKE](https://cloud.google.com/solutions/implementing-deployment-and-testing-strategies-on-gke)
 
-## 3.2 Deploying applications and services on Compute Engine.
+<!-- ## 3.2 Deploying applications and services on Compute Engine.
 
 Considerations include:
 
@@ -40,7 +43,17 @@ Considerations include:
 * Managing Compute Engine VM images and binaries
     * Reading
         * [Compute Engine - Images](https://cloud.google.com/compute/docs/images)
-        * [Compute Engine - Image management best practices](https://cloud.google.com/compute/docs/images/image-management-best-practices)
+        * [Compute Engine - Image management best practices](https://cloud.google.com/compute/docs/images/image-management-best-practices) -->
+
+## 3.2 Deploying applications to a serverless computing environment.
+
+Considerations include:
+
+* Sizing and scaling serverless environments
+* Deploying from source code
+* Invocation via triggers
+* Configuring event receivers
+* Exposing and securing application APIs (e.g., API Gateway, Cloud Endpoints)
 
 ## 3.3 Deploying applications and services to Google Kubernetes Engine (GKE).
 
@@ -49,7 +62,7 @@ Considerations include:
 * Deploying a containerized application to GKE
     * Reading
         * [GKE - Deploying a containerized web application](https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app)
-* Managing Kubernetes RBAC and Google Cloud IAM relationships
+* Integrating Kubernetes RBAC with Identity and Access Management (IAM)
     * Reading
         * [GKE - Access control](https://cloud.google.com/kubernetes-engine/docs/concepts/access-control)
         * [GKE - Configuring role-based access control](https://cloud.google.com/kubernetes-engine/docs/how-to/role-based-access-control)
@@ -69,11 +82,11 @@ Considerations include:
 * Managing container lifecycle
     * Reading
         * [GKE - Pod](https://cloud.google.com/kubernetes-engine/docs/concepts/pod)
-* Define Kubernetes resources and configurations
+<!-- * Define Kubernetes resources and configurations
     * Reading
-        * [K8s - Managing Resources](https://kubernetes.io/docs/concepts/cluster-administration/manage-deployment/)
+        * [K8s - Managing Resources](https://kubernetes.io/docs/concepts/cluster-administration/manage-deployment/) -->
 
-## 3.4 Deploying a Cloud Function.
+<!-- ## 3.4 Deploying a Cloud Function.
 
 Considerations include:
 
@@ -92,5 +105,5 @@ Considerations include:
     * [Understanding service accounts](https://cloud.google.com/iam/docs/understanding-service-accounts)
     * [Using IAM securely - Least privilege](https://cloud.google.com/iam/docs/using-iam-securely#least_privilege)
 * Downloading and using a service account private key file
-    * [IAM - Creating and managing service account keys](https://cloud.google.com/iam/docs/creating-managing-service-account-keys)
+    * [IAM - Creating and managing service account keys](https://cloud.google.com/iam/docs/creating-managing-service-account-keys) -->
 

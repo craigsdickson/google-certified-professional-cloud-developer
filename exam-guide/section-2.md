@@ -1,4 +1,4 @@
-# Section 2: Building and testing applications
+# Section 2: Building and testing applications (~20% of the exam)
 
 ## 2.1 Setting up your local development environment.
 
@@ -21,8 +21,32 @@ Considerations include:
         * [Cloud Code](https://cloud.google.com/code)
         * [Skaffold](https://skaffold.dev/)
         * [Kubernetes development, simplified — Skaffold](https://cloud.google.com/blog/products/application-development/kubernetes-development-simplified-skaffold-is-now-ga)
+* Using the Google Cloud Console, Google Cloud SDK, and Cloud Shell tools
+* Using developer tooling (e.g., Cloud Code, Skaffold)
 
-## 2.2 Writing efficient code.
+## 2.2 Building.
+
+Considerations include:
+
+* Source control management
+    * Reading
+        * [Cloud Source Repositories](https://cloud.google.com/source-repositories)
+        * [DevOps tech: Version control](https://cloud.google.com/solutions/devops/devops-tech-version-control)
+* Creating secure container images from code
+    * Reading
+        * [Best practices for building containers](https://cloud.google.com/solutions/best-practices-for-building-containers)
+        * [Binary Authorization](https://cloud.google.com/binary-authorization)
+* Developing a continuous integration pipeline using services (e.g., Cloud Build, Artifact Registry) that construct deployment artifacts
+    * Reading
+        * [CI/CD on Google Cloud](https://cloud.google.com/docs/ci-cd)
+        * [Set Up CI/CD With Firebase on Google Cloud Platform and GitHub in 10 Minutes](https://betterprogramming.pub/set-up-ci-cd-with-firebase-gcp-and-github-in-10-minutes-be76bee4579e)
+    * Tutorial/Lab
+        * [Continuous deployment to Google Kubernetes Engine (GKE) with Cloud Build](https://codelabs.developers.google.com/codelabs/cloud-builder-gke-continuous-deploy/index.html#0)
+* Code and test build optimization
+    * Reading
+        * [DevOps tech: Continuous integration](https://cloud.google.com/solutions/devops/devops-tech-continuous-integration)
+
+<!-- ## 2.2 Writing efficient code.
 
 Considerations include:
 
@@ -44,13 +68,13 @@ Considerations include:
         * [Cloud Debugger](https://cloud.google.com/debugger)
         * [Cloud Profiler](https://cloud.google.com/profiler)
     * Tutorial/Lab
-        * [Analyze production performance with Cloud Profiler](https://codelabs.developers.google.com/codelabs/cloud-profiler#0)
+        * [Analyze production performance with Cloud Profiler](https://codelabs.developers.google.com/codelabs/cloud-profiler#0) -->
 
 ## 2.3 Testing.
 
 Considerations include:
 
-* Unit testing
+* Unit testing  (e.g., emulators)
 * Integration testing
 * Performance testing
 * Load testing
@@ -61,25 +85,4 @@ Considerations include:
     * Videos
         * [Shift Left: Continuous Integration Testing with Cloud Build (Cloud Next '19)](https://www.youtube.com/watch?v=pqCq24aEka4)
         * [Accelerate your Build and Test with Google Cloud Platform (Cloud Next '18)](https://www.youtube.com/watch?v=NcShWeGgWd0)
-
-## 2.4 Building.
-
-Considerations include:
-
-* Source control management
-    * Reading
-        * [Cloud Source Repositories](https://cloud.google.com/source-repositories)
-        * [DevOps tech: Version control](https://cloud.google.com/solutions/devops/devops-tech-version-control)
-* Creating secure container images from code
-    * Reading
-        * [Best practices for building containers](https://cloud.google.com/solutions/best-practices-for-building-containers)
-        * [Binary Authorization](https://cloud.google.com/binary-authorization)
-* Developing a continuous integration pipeline using services (e.g., Cloud Build, Container Registry) that construct deployment artifacts
-    * Reading
-        * [CI/CD on Google Cloud](https://cloud.google.com/docs/ci-cd)
-        * [Set Up CI/CD With Firebase on Google Cloud Platform and GitHub in 10 Minutes](https://betterprogramming.pub/set-up-ci-cd-with-firebase-gcp-and-github-in-10-minutes-be76bee4579e)
-    * Tutorial/Lab
-        * [Continuous deployment to Google Kubernetes Engine (GKE) with Cloud Build](https://codelabs.developers.google.com/codelabs/cloud-builder-gke-continuous-deploy/index.html#0)
-* Reviewing and improving continuous integration pipeline efficiency
-    * Reading
-        * [DevOps tech: Continuous integration](https://cloud.google.com/solutions/devops/devops-tech-continuous-integration)
+* Failure testing/chaos engineering

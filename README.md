@@ -23,28 +23,28 @@ The following pages reproduce the official Exam Guide topics and augments them w
     * There is lots of good third party content around, and I am happy to include links to it if warranted. However, I am working on the assumption that the likelihood of content going stale is much higher with 3rd party content than it is for official Google published content
 * There are lots of resources available on just about every topic in the exam. This set of resources loses its value if all they really do is reproduce the Google Search results for the various topics. Instead these resources should be curated and meet the criteria of being tightly aligned to the Exam Guide, cover what is considered *required knowledge*, and not repetitive.
 
-### Section 1
+### Section 1 (~26% of the exam)
 Designing highly scalable, available, and reliable cloud-native applications
 
 [Resources](./exam-guide/section-1.md)
 
-### Section 2
+### Section 2 (~20% of the exam)
 Building and testing applications
 
 [Resources](./exam-guide/section-2.md)
 
-### Section 3
+### Section 3 (~18% of the exam)
 Deploying applications
 
 [Resources](./exam-guide/section-3.md)
 
-### Section 4
+### Section 4 (~21% of the exam)
 Integrating Google Cloud services
 
 [Resources](./exam-guide/section-4.md)
 
-### Section 5
-Managing application performance monitoring
+### Section 5 (~15% of the exam)
+Managing deployed applications
 
 [Resources](./exam-guide/section-5.md)
 
